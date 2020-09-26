@@ -6,7 +6,6 @@
   tasks:
   - name: Create EC2
     ec2_instance:
-      key_name: "{{ key_name }}"
       security_group: "{{ sec_group }}"
       image_id: "{{ image }}"
       instance_type: "{{ instance_type }}"
