@@ -20,7 +20,7 @@
             volume_type: gp2
             volume_size: "{{ root_volume_size }}"
             delete_on_termination: true
-            encrypted: true
+            encrypted: false
       name: "{{ instance_name }}"
       tags:
         created_by: "{{ your_name }}"
